@@ -3,6 +3,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link href="http://localhost/Web/assets/css/style.css" media="screen" rel="stylesheet" type="text/css" /> 
+		<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://localhost/Web/assets/css/st1.css" />
+	<![endif]-->
 		<title>Chào mừng bạn đến với trang web tin tức công nghệ</title>
 		
 	</head>
@@ -70,6 +73,26 @@
 					<span> Đây là bài mục Khám phá</span>
 					<a href="KhamPha.php" class="readmore">Read more</a>
 					</li>
+				</ul>
+			</div>
+			<div id="footer">
+				<ul>
+					<li>
+						<h3>Gallery</h3>
+					<div id="gallery">
+						
+						<a href="index.html"><img src="assets/img/galary.jpg" alt="Image" /></a>
+						<p>Tạp chí thông tin công nghệ<br />by: ThuyThanhTran</p>
+						<a href="myview.php" class="viewall">View all Photos</a>
+					</div>
+					</li>
+					<li>
+					<h3>About</h3>
+					<div>
+						<b>Tạp chí thông tin công nghệ</b>
+						<span>email: thuyexpress@gmail.com</span>
+						<span>Điện thoại liên hệ: 0974925988</span>
+					</div>
 				</ul>
 			</div>
 		</div>

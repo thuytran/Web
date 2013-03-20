@@ -23,7 +23,7 @@ div.body span a:hover {
 	color: #3e3524;
 }
 #page {	
-	background: url(assets/img/body.jpg) repeat-x center top;
+	background: url(../img/body.gif) repeat-x center top;
 	overflow: hidden;
 	width: 100%;
 }
@@ -57,33 +57,33 @@ div.body span a:hover {
 	margin: 0 5px;
 }
 #header ul li a {
-	/*background: url(assets/img/ICT_background.jpg) no-repeat right top;*/
-	color: #000;
+	background: url(../img/bg-menu-right.gif) no-repeat right top;
+	color: #164773;
 	display: block;
-	font-size: 16px;
-	line-height: 50px;
+	font-size: 14px;
+	line-height: 32px;
 	text-align: center;
 	text-decoration: none;
 }
 
 #header ul li a span {
-	/*background: url(assets/img/ICT_background.jpg) no-repeat left top;*/
+	background: url(../img/bg-menu-left.gif) no-repeat left top;
 	cursor: pointer;
 	display: block;
 	height: 34px;
 	padding: 0 15px;
-	
 }
+
 
 #header ul li.current a,
 #header ul li a:hover {
-	/*background: url(assets/img/ICT_background.jpg) no-repeat right top;*/
-	color: #fff;
+	background: url(../img/bg-menu-selected-right.gif) no-repeat right top;
+	color: #f2ffff;
 }
 
 #header ul li.current a span,
 #header ul li a:hover span {
-	/*background: url(assets/img/ICT_background.jpg) no-repeat left top;*/
+	background: url(../img/bg-menu-selected-left.gif) no-repeat left top;
 }
 
 #body,
@@ -104,7 +104,7 @@ div.body {
 }
 
 #body ul li {
-	/*background: url(assets/img/ICT_background.jpg) repeat-y;*/
+	background: url(../img/border-vertical.gif) repeat-y;
 	float: left;
 	height: 650px;
 	padding: 0 25px 0 20px;
@@ -138,7 +138,7 @@ div.body {
 }
 
 #body ul li div {
-	/*background: url(assets/img/ICT_background.jpg) no-repeat;*/
+	background: url(../img/frame.gif) no-repeat;
 	height: 238px;
 	margin: 0 0 15px;
 	width: 286px;
@@ -167,7 +167,7 @@ div.body {
 }
 
 #body ul li a.readmore {
-	/*background: url(assets/img/ICT_background.jpg) no-repeat;*/
+	background: url(../img/bg-readmore.gif) no-repeat;
 	color: #69614a;
 	display: block;
 	height: 24px;
@@ -227,60 +227,60 @@ div.body div {
 	overflow: hidden;
 }
 
-div.body div#lap {
+/*div.body div#blog {
 	margin: -30px 0 0;
 }
 
-div.body div#lap div.article {
-	/*background: url(assets/img/ICT_background.jpg) repeat-y right top;*/
+div.body div#blog div.article {
+	background: url(image-assets/img/border-vertical.gif) repeat-y right top;
 	float: left;
 	padding: 30px 30px 0 0;
 	width: 650px;
 }
 
-div.body div#lap div.article p {
+div.body div#blog div.article p {
 	float: none;
 	margin: 0;
 	width: auto;
 }
 
-div.body div#lap div.sidebar {
+div.body div#blog div.sidebar {
 	float: right;
 	padding: 55px 0 0;
 	width: 215px;
 } 
 
-div.body div#lap div.sidebar h2 {
+div.body div#blog div.sidebar h2 {
 	color: #7C6B4F;
 	font-size: 16px;
 	padding: 30px 0 0;
 	text-shadow: none;
 }
  
-div.body div#lap div.sidebar ul {
+div.body div#blog div.sidebar ul {
 	background: none;
 	list-style: disc outside;
 	overflow: visible;
 }
 
-div.body div#lap div.sidebar ul li {
+div.body div#blog div.sidebar ul li {
 	float: none;
 	line-height: 24px;
 }
 
-div.body div#lap div.sidebar ul li:first-child  {
+div.body div#blog div.sidebar ul li:first-child  {
 	float: none;
 }
 
-div.body div#lap div.sidebar ul li a {
+div.body div#blog div.sidebar ul li a {
 	color: #7C6B4F;
 	text-decoration: none;
 }
 
-div.body div#lap div.sidebar ul li a:hover {
+div.body div#blog div.sidebar ul li a:hover {
 	text-decoration: underline;
 }
-
+*/
 div.body div img {
 	float: left;
 	margin: 33px 0 0;
@@ -306,7 +306,7 @@ div.body table tr td{
 }
 
 div.body ul {
-	/*background: url(assets/img/ICT_background.jpg) repeat-y center top;*/
+	background: url(../img/border-vertical.gif) repeat-y center top;
 	list-style: none;
 	margin: 0;
 	overflow: hidden;
@@ -352,3 +352,115 @@ div.body ul li ul li {
 div.body ul li ul li:first-child {
 	float: none;
 }
+
+#footer {
+	background: url(../img/bg-footer.jpg) repeat-x center bottom;
+	height: 433px;
+}
+
+#footer ul {
+	list-style: none;
+	margin: 0 auto 25px;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+
+#footer ul li {
+	float: left;
+	margin: 0 0 0 18px;
+	width: 226px;
+}
+
+#footer ul li:first-child {
+	margin: 0;
+}
+
+#footer ul li h3 {
+	color: #0D4D79;
+	font-family: Times New Roman,Times,serif;
+	font-size: 20px;
+	margin: 0 0 5px;
+	text-indent: 15px;
+	text-shadow: 0 1px #F8FFFF;
+}
+
+#footer ul li div {
+	background: url(../img/bg-footer-item.gif) no-repeat;
+	height: 266px;
+	margin: 0;
+	padding: 10px 0 0;
+	position: relative;
+	width: 226px;
+}
+
+#footer ul li div#magazine img {
+	margin: 2px 0 0 3px;
+}
+
+#footer ul li div#gallery img {
+	margin: 5px 13px;
+}
+
+#footer ul li div p,
+#footer ul li div b,
+#footer ul li div span {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 13px;
+}
+
+#footer ul li div a {
+	display: block;
+}
+
+#footer ul li div span {
+	font-size: 12px;
+}
+
+#footer ul li div a.viewall {
+	color: #a29c8e;
+	display: block;
+	font-size: 12px;
+	padding: 0 13px 10px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+	text-align: right;
+}
+
+#footer ul li div b {
+	display: block;
+}
+
+#footer div {
+	margin: 70px auto 0;
+	overflow: hidden;
+	width: 960px;
+}
+
+#footer div p {
+	font-family: Times New Roman, Times, serif;
+	margin: 0;
+}
+
+#footer div p a {
+	color: #988878;
+	text-decoration: none;
+}
+
+#footer div p a:hover {
+	color: #988878;
+	text-decoration: underline;
+}
+
+#footer div p.connect {
+	float: left;
+	color: #988878;
+}
+
+#footer div p.footnote {
+	float: right;
+	color: #988878;

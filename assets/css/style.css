@@ -1,5 +1,5 @@
 body{
-	background: #4CB7FF;
+	background: #AEE1EE;
 	color: #000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
@@ -23,7 +23,7 @@ div.body span a:hover {
 	color: #3e3524;
 }
 #page {	
-	background: url(../img/body.gif) repeat-x center top;
+	background: url(../img/header.png) repeat-x center top;
 	overflow: hidden;
 	width: 100%;
 }
@@ -33,7 +33,7 @@ div.body span a:hover {
 }
 
 #header div {
-	margin: 65px 0 0;
+	margin: 65px 0 0 0;
 	text-align: center;
 }
 
@@ -77,13 +77,13 @@ div.body span a:hover {
 
 #header ul li.current a,
 #header ul li a:hover {
-	background: url(../img/bg-menu-selected-right.gif) no-repeat right top;
+	background: url(../img/menuselect.png) no-repeat right top;
 	color: #f2ffff;
 }
 
 #header ul li.current a span,
 #header ul li a:hover span {
-	background: url(../img/bg-menu-selected-left.gif) no-repeat left top;
+	background: url(../img/menuselect2.png) no-repeat left top;
 }
 
 #body,
@@ -354,7 +354,7 @@ div.body ul li ul li:first-child {
 }
 
 #footer {
-	background: url(../img/bg-footer.jpg) repeat-x center bottom;
+	background: url(../img/foot.jpg) repeat-x center bottom;
 	height: 433px;
 }
 

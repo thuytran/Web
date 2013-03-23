@@ -14,7 +14,7 @@
 			<div id="header">
 				<div>
 					<a href="http://localhost/Web">
-						<img src="assets/img/logo.gif"  alt="NewTech"/>
+						<img src="assets/img/logo.gif" alt="NewTech"/>
 					</a>
 				</div>
 				<ul>

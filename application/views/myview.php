@@ -24,6 +24,7 @@
 				<li><a href="Lap.php"><span>Laptop &amp; Tablet</span></a></li>
 				<li><a href="Pc.php"><span>PC</span></a></li>
 				<li><a href="KhamPha.php"><span>Khám Phá</span></a></li>
+				<li><a href="SuKien.php"><span>Sự Kiện</span></a></li>
 			</ul>
 			</div>
 			<div id="body">
@@ -73,6 +74,16 @@
 					<span> Đây là bài mục Khám phá</span>
 					<a href="KhamPha.php" class="readmore">Read more</a>
 					</li>
+					
+					<li>
+						<h1><a href="SuKien.php">Sự Kiện</a></h1>
+					<div>
+						<a href="SuKien.php"><img src="assets/img/sukien.png" alt="Image" /></a>
+					</div>
+					<span> Đây là bài mục Sự kiện</span>
+					<a href="SuKien.php" class="readmore">Read more</a>
+					</li>
+					
 				</ul>
 			</div>
 			<div id="footer">

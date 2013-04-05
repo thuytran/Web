@@ -3,9 +3,6 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link href="http://localhost/Web/assets/css/style.css" media="screen" rel="stylesheet" type="text/css" /> 
-		<!--[if IE 7]>
-		<link rel="stylesheet" type="text/css" href="http://localhost/Web/assets/css/st1.css" />
-	<![endif]-->
 		<title>Chào mừng bạn đến với trang web tin tức công nghệ</title>
 		
 	</head>
@@ -13,10 +10,15 @@
 		<div id="page">
 			<div id="header">
 				<div>
+					
 					<a href="http://localhost/Web">
 						<img src="assets/img/logo.gif" alt="NewTech"/>
 					</a>
 				</div>
+				<form action="" class="search">
+					<input type="text" value="search" onblur="this.value=!this.value?'search':this.value;" onfocus="this.select()" onclick="this.value='';"/>
+					<input type="submit" id="submit" value=""/>
+				</form>
 				<ul>
 				<li class="current"><a href="http://localhost/Web"><span>Home</span></a></li>
 				<li><a href="TinICT.php"><span>Tin ICT</span></a></li>
@@ -26,6 +28,7 @@
 				<li><a href="KhamPha.php"><span>Khám Phá</span></a></li>
 				<li><a href="SuKien.php"><span>Sự Kiện</span></a></li>
 			</ul>
+			
 			</div>
 			<div id="body">
 			
@@ -104,8 +107,17 @@
 						<span>email: thuyexpress@gmail.com</span>
 						<span>Điện thoại liên hệ: 0974925988</span>
 					</div>
+					<li>
+						<h3>Trang quản trị</h3>
+					<div class="formnhap">
+						<b>Dành cho quản trị viên</b>
+						<a href="index.php/admin/admin_login"/>Ấn vào đây</a>
+						
+					</div>
+					</li>
 				</ul>
 			</div>
+			
 		</div>
 		
 	</body>

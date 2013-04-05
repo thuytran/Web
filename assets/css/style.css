@@ -31,7 +31,39 @@ div.body span a:hover {
 	margin: 0 auto;
 	width: 960px;
 }
+/*.header div form.search{
+	position:absolute;
+	right:100px;
+	bottom:100px;
+}
+.header div form.search input{
+	/*background: url(../images/interface.gif) no-repeat 0 -90px;
+	width:324px;
+	height:auto;
+	border:0;
+	float:left;
+	padding:110px 1000px 118px 40px;
+	color:#a1a1a1;
+	font-size:15px;
+}
+.header div form.search input#submit{
+	/*background:url(../images/interface.gif) no-repeat 0 -150px;
+	width:auto;
+	height:24px;
+	position:relative;
+	margin:7px 0 0 -355px;
+	font-size:14px;
+	padding:0 0 0 30px;
+	
+}*/
 
+#header form.search{
+	position: absolute;
+
+	margin-top: -25px;
+	
+	right: 100px;
+}
 #header div {
 	margin: 65px 0 0 0;
 	text-align: center;
@@ -85,6 +117,7 @@ div.body span a:hover {
 #header ul li a:hover span {
 	background: url(../img/menuselect2.png) no-repeat left top;
 }
+
 
 #body,
 div.body {
@@ -464,3 +497,4 @@ div.body ul li ul li:first-child {
 #footer div p.footnote {
 	float: right;
 	color: #988878;
+}

@@ -5,7 +5,9 @@
 		<title>Trang quản trị viên</title>
 		<body>
 			<div id="body">
-			<a href="index.php/admin/add_user"/>Thêm người viết bài</a>
+			<a href="add_user"/>Thêm người viết bài</a>
+			<br />
+			<a href="edit_user"/> Chỉnh sửa người viết bài</a>
 			<br />
 			</div>
 						

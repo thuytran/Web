@@ -49,22 +49,25 @@ class Admin extends CI_Controller {
 	
 	public function save_user(){
 		try{
-			$ID = $_POST["ID"];
-			$Name = $_POST["Name"];
-			$Password = $_POST["Password"];
-			
-			$user = array(
-				'ID' => $ID,
-				'Name' => $Name,
+			$User_Name=$_POST['User_Name'];
+			$Password=$_POST['Password'];
+				$insert_data = array(
+				'Name' => $User_Name,
 				'Password' => $Password
 			);
-			$this->qlytacgiaModel->insertUser($user);
+			$this->db->insert('qlytacgia',$insert_data);
 			
 			$this->load->view('create_user_success');
 		}
 		catch(Exception $e){
 			$this->load->view('create_user_fail');
 		}
+	}
+	public function edit_user(){
+		$this->db->select('Name, Password');
+		$this->db->from('qlytacgia');
+ 		$query = $this->db->get();
+ 
 	}
 }
 ?>

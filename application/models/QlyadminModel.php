@@ -34,10 +34,10 @@
 							// $res = mysql_query($sql);
 							if($Password=='123456'&&$User_Name=='admin'){
 							echo "Đăng nhập thành công! Hãy bắt đầu quản trị trang web";
-								$this->load->view('quantrivien.php');
+								$this->load->view('quantri.php');
 							}
 							else{
-								echo "fail!";
+								echo "Sai tên đăng nhập hoặc password";
 							}
 			 		
 			 	}

@@ -107,14 +107,14 @@
 						<span>email: thuyexpress@gmail.com</span>
 						<span>Điện thoại liên hệ: 0974925988</span>
 					</div>
-					<li>
+					<!-- <li>
 						<h3>Trang quản trị</h3>
 					<div class="formnhap">
 						<b>Dành cho quản trị viên</b>
 						<a href="index.php/admin/admin_login"/>Ấn vào đây</a>
 						
 					</div>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 			
